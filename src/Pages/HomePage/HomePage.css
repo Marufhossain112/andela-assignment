@@ -1,0 +1,6 @@
+.header {
+  min-height: 100vh;
+  background: url("https://andela.com/wp-content/uploads/2022/03/header.jpeg");
+  background-position: 50%;
+  background-size: cover;
+}

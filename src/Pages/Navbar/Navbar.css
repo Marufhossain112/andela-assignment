@@ -1,0 +1,59 @@
+.navbar {
+  margin-left: 30px;
+  position: fixed;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.navbar-logo {
+  height: auto;
+  width: 100%;
+}
+.brand-logo {
+  width: 190px;
+  margin: 0 0 0 24px;
+  filter: grayscale(1) invert(1) brightness(5);
+  -webkit-filter: grayscale(1) invert(1) brightness(5);
+}
+.navbar-start {
+  width: 18%;
+}
+#navbar li a:not(.hire a) {
+  color: white !important;
+}
+.navbar li a {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0%;
+  margin: 0 30px;
+}
+.navbar li a:hover {
+  background: transparent;
+}
+.apply:hover {
+  transform: scale(1.04) !important;
+  -webkit-transform: scale(1.04) !important;
+  -moz-transform: scale(1.04) !important;
+  -ms-transform: scale(1.04) !important;
+  -o-transform: scale(1.04) !important;
+}
+.hire a {
+  border: 1px solid #56c870 !important;
+  background-color: #56c870 !important;
+  color: #132128 !important;
+  border-radius: 48px !important;
+  line-height: 1 !important;
+  padding: 12px 30px 10px !important;
+  transition: all 0.15s ease-in-out !important;
+  display: inline-block !important;
+  -webkit-transition: all 0.15s ease-in-out !important;
+  -moz-transition: all 0.15s ease-in-out !important;
+  -ms-transition: all 0.15s ease-in-out !important;
+  -o-transition: all 0.15s ease-in-out !important;
+  -webkit-border-radius: 48px !important;
+  -moz-border-radius: 48px !important;
+  -ms-border-radius: 48px !important;
+  -o-border-radius: 48px !important;
+}
+.nav-parent {
+  max-width: 1320px;
+}
