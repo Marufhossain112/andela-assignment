@@ -36,6 +36,13 @@
   -ms-transform: scale(1.04) !important;
   -o-transform: scale(1.04) !important;
 }
+.hire:hover {
+  transform: scale(1.04) !important;
+  -webkit-transform: scale(1.04) !important;
+  -moz-transform: scale(1.04) !important;
+  -ms-transform: scale(1.04) !important;
+  -o-transform: scale(1.04) !important;
+}
 .hire a {
   border: 1px solid #56c870 !important;
   background-color: #56c870 !important;

@@ -3,4 +3,45 @@
   background: url("https://andela.com/wp-content/uploads/2022/03/header.jpeg");
   background-position: 50%;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+.header h1 {
+  font-size: 64px;
+  line-height: 72px;
+  margin-bottom: 40px;
+  font-family: "Inria Serif", "Garamond", serif;
+  color: white;
+  font-weight: 400;
+}
+.header p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+}
+.hire-talent,
+.apply-jobs {
+  border: 1px solid #56c870;
+  background-color: #56c870;
+  border-radius: 48px;
+  padding: 24px 40px;
+  font-size: 18px !important;
+  color: #173b3f;
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.25s ease-in-out;
+}
+.apply-jobs {
+  background-color: #fff;
+  border-color: #fff;
+}
+.hire-talent:hover {
+  transform: scale(1.05);
+}
+.apply-jobs:hover {
+  transform: scale(1.05);
 }
