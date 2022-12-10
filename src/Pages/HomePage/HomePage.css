@@ -118,3 +118,16 @@ h2 {
   line-height: 48px;
   color: black;
 }
+.guidance-span {
+  color: initial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+ul.is-style-checkmark-list li {
+  background-image: url(https://andela.com/wp-content/themes/andela-v5/images/tick-green.svg);
+  padding: 4px 0px 4px 28px;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: left 0px top 10px;
+  color: #132128;
+}

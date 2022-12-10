@@ -43,86 +43,86 @@ const HomePage = () => {
       {/* trusted section */}
       <div className="trusted mb-0">
         <div>
-          <h3 class="text-center text-black">Trusted by</h3>
+          <h3 className="text-center text-black">Trusted by</h3>
           <div className="flex justify-center items-center max-w-7xl mx-auto ">
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   src="https://andela.com/wp-content/uploads/2022/03/github-logo.svg"
                   alt=""
-                  class="wp-image-76034"
+                  className="wp-image-76034"
                   width="96"
                   height="26"
                 />
               </figure>{" "}
             </div>
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   loading="lazy"
                   src="https://andela.com/wp-content/uploads/2022/03/invision-logo.svg"
                   alt=""
-                  class="wp-image-76036"
+                  className="wp-image-76036"
                   width="120"
                   height="40"
                 />
               </figure>{" "}
             </div>
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   loading="lazy"
                   src="https://andela.com/wp-content/uploads/2022/03/coursera-logo.svg"
                   alt=""
-                  class="wp-image-76033"
+                  className="wp-image-76033"
                   width="144"
                   height="20"
                 />
               </figure>{" "}
             </div>
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   loading="lazy"
                   src="https://andela.com/wp-content/uploads/2022/03/Kraft-Heinz-Logo.svg"
                   alt=""
-                  class="wp-image-76145"
+                  className="wp-image-76145"
                   width="164"
                   height="28"
                 />
               </figure>{" "}
             </div>
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   loading="lazy"
                   src="https://andela.com/wp-content/uploads/2022/03/seismic-logo.svg"
                   alt=""
-                  class="wp-image-76037"
+                  className="wp-image-76037"
                   width="150"
                   height="32"
                 />
               </figure>{" "}
             </div>
-            <div class="partner">
+            <div className="partner">
               {" "}
-              <figure class="wp-block-image size-large">
+              <figure className="wp-block-image size-large">
                 <img
                   decoding="async"
                   loading="lazy"
                   src="https://andela.com/wp-content/uploads/2022/03/goldman-sachs-logo.svg"
                   alt=""
-                  class="wp-image-76035"
+                  className="wp-image-76035"
                   width="110"
                   height="44"
                 />
@@ -140,7 +140,7 @@ const HomePage = () => {
               loading="lazy"
               src="https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos.png"
               alt="Trust in Andela"
-              class="wp-image-78305"
+              className="wp-image-78305"
               srcset="https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos.png 848w, https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos-300x183.png 300w, https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos-768x468.png 768w"
               sizes="(max-width: 848px) 100vw, 848px"
               width="848"
@@ -148,11 +148,11 @@ const HomePage = () => {
             />
           </figure>
         </div>
-        <div class="build-team-para flex  flex-col justify-center  ">
+        <div className="build-team-para flex  flex-col justify-center  ">
           {" "}
-          <h5 class="eyebrow">Build your team today </h5>{" "}
+          <h5 className="eyebrow">Build your team today </h5>{" "}
           <h2>We’ve cracked the code on creating engineering teams</h2>{" "}
-          <p class="is-style-checkmark-list">
+          <p className="is-style-checkmark-list">
             <span className="build-team-span">
               Skilled engineers, product managers, and designers at your
               fingertips. An extensive list of technical services to suit your
@@ -160,16 +160,64 @@ const HomePage = () => {
               talent from Andela.
             </span>
           </p>{" "}
-          <div class="is-layout-flex wp-block-buttons">
+          <div className=" s">
             {" "}
-            <div class="hire-talent inline-block mt-5">
-              <a class="" href="andela.com/hire-talent/">
+            <div className="hire-talent inline-block mt-5">
+              <a className="" href="andela.com/hire-talent/">
                 Build your team
               </a>
             </div>{" "}
           </div>{" "}
-        
         </div>
+      </div>
+      {/* spacer */}
+      <div
+        style={{ height: "80px" }}
+        aria-hidden="true"
+        className="wp-block-spacer"
+      ></div>
+      {/* tech experts */}
+      <div className="flex justify-around ">
+        {" "}
+        <div>
+          {" "}
+          <h5 className="eyebrow">Empower your future</h5>{" "}
+          <h2>
+            Why <em>the world’s best</em>
+            <br />
+            <em>talent</em> prefers Andela
+          </h2>{" "}
+          <ul className="is-style-checkmark-list">
+            <li>Long-term placements</li>
+            <li>Trusted career partner</li>
+            <li>
+              <span className="guidance-span">Career Guidance</span>
+            </li>
+            <li>96% match success </li>
+          </ul>{" "}
+          <div className=" s">
+            {" "}
+            <div className="hire-talent inline-block mt-6">
+              <a href="https://andela.com/hire-talent/">Find Tech Experts</a>
+            </div>{" "}
+          </div>{" "}
+        </div>{" "}
+        <div>
+          {" "}
+          <figure>
+            <img
+              decoding="async"
+              loading="lazy"
+              src="https://andela.com/wp-content/uploads/2022/03/Visual-3.png"
+              alt="highly-skilled, global technology talent community in emerging markets"
+              className="wp-image-76348"
+              srcset="https://andela.com/wp-content/uploads/2022/03/Visual-3.png 811w, https://andela.com/wp-content/uploads/2022/03/Visual-3-300x203.png 300w, https://andela.com/wp-content/uploads/2022/03/Visual-3-768x521.png 768w"
+              sizes="(max-width: 811px) 100vw, 811px"
+              width="811"
+              height="550"
+            />
+          </figure>{" "}
+        </div>{" "}
       </div>
     </div>
   );
