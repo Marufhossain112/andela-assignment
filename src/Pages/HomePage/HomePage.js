@@ -3,6 +3,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <div>
+      {/* header */}
       <div className="header">
         <div>
           <h1 className="has-andela-v-5-white-color has-text-color">
@@ -24,6 +25,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      {/* under header  */}
       <div className="under-header  ">
         <div className="container-bottom-header flex items-center">
           <div>
@@ -35,6 +37,97 @@ const HomePage = () => {
           </div>
           <div className="hire-talent ml-[80px]">
             <a href="#hire-talent">Find Out More</a>
+          </div>
+        </div>
+      </div>
+      {/* trusted section */}
+      <div className="trusted">
+        <div>
+          <h3 class="text-center text-black">Trusted by</h3>
+          <div className="flex justify-center items-center max-w-7xl mx-auto ">
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  src="https://andela.com/wp-content/uploads/2022/03/github-logo.svg"
+                  alt=""
+                  class="wp-image-76034"
+                  width="96"
+                  height="26"
+                />
+              </figure>{" "}
+            </div>
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  src="https://andela.com/wp-content/uploads/2022/03/invision-logo.svg"
+                  alt=""
+                  class="wp-image-76036"
+                  width="120"
+                  height="40"
+                />
+              </figure>{" "}
+            </div>
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  src="https://andela.com/wp-content/uploads/2022/03/coursera-logo.svg"
+                  alt=""
+                  class="wp-image-76033"
+                  width="144"
+                  height="20"
+                />
+              </figure>{" "}
+            </div>
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  src="https://andela.com/wp-content/uploads/2022/03/Kraft-Heinz-Logo.svg"
+                  alt=""
+                  class="wp-image-76145"
+                  width="164"
+                  height="28"
+                />
+              </figure>{" "}
+            </div>
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  src="https://andela.com/wp-content/uploads/2022/03/seismic-logo.svg"
+                  alt=""
+                  class="wp-image-76037"
+                  width="150"
+                  height="32"
+                />
+              </figure>{" "}
+            </div>
+            <div class="partner">
+              {" "}
+              <figure class="wp-block-image size-large">
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  src="https://andela.com/wp-content/uploads/2022/03/goldman-sachs-logo.svg"
+                  alt=""
+                  class="wp-image-76035"
+                  width="110"
+                  height="44"
+                />
+              </figure>{" "}
+            </div>
           </div>
         </div>
       </div>
