@@ -45,3 +45,21 @@
 .apply-jobs:hover {
   transform: scale(1.05);
 }
+.under-header {
+  padding-top: 36px;
+  padding-bottom: 24px;
+  background-color: #173b3f;
+  color: #fff;
+}
+.container-bottom-header {
+  padding: 0px 20px;
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.container-bottom-header h3 {
+  font-family: "Inria Serif", "Garamond", serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  margin: 0px 0px 12px 0px;
+}
