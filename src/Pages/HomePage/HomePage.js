@@ -4,12 +4,12 @@ const HomePage = () => {
   return (
     <div className="header">
       <div>
-        <h1 class="has-andela-v-5-white-color has-text-color">
+        <h1 className="has-andela-v-5-white-color has-text-color">
           Discover <em>brilliant</em> talent
           <br />
           around the world
         </h1>{" "}
-        <p class="has-andela-v-5-white-color has-text-color">
+        <p className="has-andela-v-5-white-color has-text-color">
           Join Andela to build your team with developers, engineers, product
           designers, and the best remote technology experts.
         </p>{" "}

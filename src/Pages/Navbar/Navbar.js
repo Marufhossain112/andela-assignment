@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+  const [brandLogo, setBrandLogo] = useState(false);
+  const [isMenu, setMenu] = useState(false);
+  const changeBackground = () => {
+    // console.log(window.scrollY);
+    if (window.scrollY >= 65) {
+      setNavbar(true);
+      setBrandLogo(true);
+      setMenu(true);
+    } else {
+      setNavbar(false);
+      setBrandLogo(false);
+      setMenu(false);
+    }
+  };
+  window.addEventListener("scroll", changeBackground);
   return (
     <div className="nav-parent">
-      <div id="navbar" className="navbar bg-base-100">
+      <div
+        id="navbar"
+        className={`${
+          navbar ? "navbar active navbar-parent" : "navbar"
+        } bg-base-100`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -56,7 +77,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="brand-logo">
+          <div className={`${brandLogo ? "brand-logo active-logo" : "brand-logo"}`}>
             <a href="https://andela.com/">
               <img
                 width="1"
@@ -68,7 +89,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center  hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
               <a>For Technology Experts</a>
@@ -82,7 +103,11 @@ const Navbar = () => {
             <li>
               <a>About Us</a>
             </li>
-            <li className="border rounded-full p-2 apply">
+            <li
+              className={`${
+                navbar ? "border bg-border" : "border"
+              } border rounded-full p-2 apply`}
+            >
               <a>Apply for Jobs</a>
             </li>
             <li className="hire">
