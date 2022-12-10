@@ -97,3 +97,24 @@ figure img {
   vertical-align: bottom;
   padding: 10px;
 }
+.build-team-span {
+  color: initial;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.build-team-para {
+  padding: 0px 78px;
+}
+.eyebrow {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  color: black;
+}

@@ -41,7 +41,7 @@ const HomePage = () => {
         </div>
       </div>
       {/* trusted section */}
-      <div className="trusted">
+      <div className="trusted mb-0">
         <div>
           <h3 class="text-center text-black">Trusted by</h3>
           <div className="flex justify-center items-center max-w-7xl mx-auto ">
@@ -129,6 +129,46 @@ const HomePage = () => {
               </figure>{" "}
             </div>
           </div>
+        </div>
+      </div>
+      {/* build your team */}
+      <div className="build-team grid grid-cols-2 bg-white">
+        <div className="">
+          <figure>
+            <img
+              decoding="async"
+              loading="lazy"
+              src="https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos.png"
+              alt="Trust in Andela"
+              class="wp-image-78305"
+              srcset="https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos.png 848w, https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos-300x183.png 300w, https://andela.com/wp-content/uploads/2022/11/Andela_NewLogos-768x468.png 768w"
+              sizes="(max-width: 848px) 100vw, 848px"
+              width="848"
+              height="517"
+            />
+          </figure>
+        </div>
+        <div class="build-team-para flex  flex-col justify-center  ">
+          {" "}
+          <h5 class="eyebrow">Build your team today </h5>{" "}
+          <h2>We’ve cracked the code on creating engineering teams</h2>{" "}
+          <p class="is-style-checkmark-list">
+            <span className="build-team-span">
+              Skilled engineers, product managers, and designers at your
+              fingertips. An extensive list of technical services to suit your
+              business needs. Start building your world-class team faster with
+              talent from Andela.
+            </span>
+          </p>{" "}
+          <div class="is-layout-flex wp-block-buttons">
+            {" "}
+            <div class="hire-talent inline-block mt-5">
+              <a class="" href="andela.com/hire-talent/">
+                Build your team
+              </a>
+            </div>{" "}
+          </div>{" "}
+        
         </div>
       </div>
     </div>
